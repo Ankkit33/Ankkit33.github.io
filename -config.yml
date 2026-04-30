@@ -1,0 +1,13 @@
+title: AKKI
+description: My personal homepage
+theme: jekyll-theme-yat
+
+author:
+  name: AKKI
+
+header_pages:
+  - index.md
+  - about.md
+  - gallery.md
+  - portfolio.md
+  - contact.md
