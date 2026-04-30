@@ -1,6 +1,6 @@
 title: Ankit
 email: your@email.com
-description: My personal website
+description: Personal website of Ankit
 baseurl: ""
 url: "https://ankkit33.github.io"
 
@@ -8,8 +8,29 @@ theme: jekyll-theme-yat
 
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
+# Navbar
 header_pages:
   - about.md
   - portfolio.md
   - contact.md
+
+# Author info
+author:
+  name: Ankit
+  avatar: https://via.placeholder.com/150
+  bio: Web Developer | Learner 🚀
+
+# Social links
+social_links:
+  github: Ankkit33
+
+# Homepage settings
+home:
+  heading: "Hi, I'm Ankit 👋"
+  subheading: "Welcome to my portfolio website"
+  banner: ""
+
+# Pagination (like blog style)
+paginate: 5
