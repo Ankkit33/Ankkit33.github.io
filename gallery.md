@@ -6,6 +6,6 @@ permalink: /gallery/
 
 ## My Photos
 
-![photo](assets/img1.jpg)
-![photo](assets/img2.jpg)
-![photo](assets/img3.jpg)
+(assets/img1.jpg)
+(assets/img2.jpg)
+(assets/img3.jpg)
