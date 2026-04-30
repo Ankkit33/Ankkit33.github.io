@@ -1,41 +1,15 @@
-title: AKKI's Homepage
-email: ankitkumarpadhan333@email.com
-author: akki
-
-description: AKKI's personal homepage
-
+title: Ankit
+email: your@email.com
+description: My personal website
 baseurl: ""
-url: "https://Ankkit33.github.io"
+url: "https://ankkit33.github.io"
 
-favicon: "assets/images/favicon.ico"
+theme: jekyll-theme-yat
 
-# Theme
-remote_theme: "jeffreytse/jekyll-theme-yat"
-
-# Navbar (same as Srinivas)
-header_pages:
-  - index.html
-  - about.html
-  - gallery.md
-  - portfolio.md
-  - miscellaneous.md
-  - contact.md
-
-# Homepage banner (VERY IMPORTANT 🔥)
-defaults:
-  home:
-    heading: "My Homepage"
-    subheading: "~ AKKI"
-    banner: "assets/images/banner.jpg"
-
-# Colors
-brand_color: "#348feb"
-
-# Plugins (must)
 plugins:
-  - jekyll-remote-theme
   - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-spaceship
+
+header_pages:
+  - about.md
+  - portfolio.md
+  - contact.md
