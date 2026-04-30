@@ -4,5 +4,4 @@ title: About
 permalink: /about/
 ---
 
-Hi, I am Ankit<AKKI> 👋  
-This is my personal website.
+I am Ankit. An Aspiring Computational Biology Student learning Biopython.
