@@ -4,5 +4,5 @@ title: About
 permalink: /about/
 ---
 
-Hi, I am AKKI 👋  
+Hi, I am Ankit<AKKI> 👋  
 This is my personal website.
