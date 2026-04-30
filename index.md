@@ -3,8 +3,15 @@ layout: home
 title: Home
 ---
 
-# Hi, I'm Ankit 👋
+## 🚀 Welcome
 
-Welcome to my personal website.
+This is my personal portfolio website built using GitHub Pages and Jekyll.
 
-I am building cool stuff 🚀
+### 💻 What I Do
+- Web Development
+- Learning Bioinformatics
+- Building Projects
+- Biology Student
+
+### 🔥 Featured Work
+Check out my portfolio for projects.
