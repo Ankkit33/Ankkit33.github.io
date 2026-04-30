@@ -4,4 +4,14 @@ title: About
 permalink: /about/
 ---
 
-I am Ankit. An Aspiring Computational Biology Student learning Biopython.
+## 👨‍💻 About Me
+
+Hello! I'm Ankit.
+
+I love:
+- Computational Biology
+- Designing 🌐
+- Photography
+- Building cool things 🚀
+
+Currently improving my skills in COMPUTATIONAL BIOLOGY.
