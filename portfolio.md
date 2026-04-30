@@ -4,7 +4,13 @@ title: Portfolio
 permalink: /portfolio/
 ---
 
-## My Work
+## 🚀 My Projects
 
-- Project 1  
-- Project 2  
+### 🔹 Project 1
+A GitHub Pages website.
+
+### 🔹 Project 2
+Coming soon...
+
+### 🔹 Project 3
+More projects soon...
