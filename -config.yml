@@ -1,53 +1,150 @@
+```yaml
 # Welcome to Jekyll!
+#
+# About Theme
+#
+# Yet another theme for elegant writers with modern flat style and beautiful
+# night/dark mode.
+#
+# Website: https://github.com/jeffreytse/jekyll-theme-yat
+#
+# You can do anything you want, including projects for your clients, as long
+# as you mention an attribution back (credit links in footer or project).
+# See the LICENCE file.
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you
+# use 'bundle exec jekyll serve'. If you change this file, please restart
+# the server process.
+#
 # Site settings
-title: Ankit's Homepage
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Ankit Kumar's Homepage
 email: ankitkumarpadhan333@gmail.com
-author: Ankkit33
+author: Ankit Kumar
 
 # Copyright setting
-copyright: "Copyright (c) 2024-{currentYear} <a href='https://github.com/Ankkit33'>{author}</a>"
+copyright: "Copyright (c) 2017-{currentYear} <a href='https://example.com'>Ankit Kumar</a>"
 
 description: >-
-  Ankit's personal homepage and portfolio.
+ Ankit Kumar's homepage.
 
-baseurl: "" 
-url: "https://Ankkit33.github.io"
+baseurl: ""
+url: "https://ankkit33.github.io"
 favicon: "assets/images/favicons/favicon.ico"
 
 # Yat date format
 yat:
   date_format: "%b %d, %Y"
 
-# Theme Branding
-# Default brand colors
+# Debug
+# debug: false
+
+# Header
+# header_transparent: true
+
+# Width
+# content_width: "920px"
+
+# Google analytics
+# google_analytics: [Measurement ID]
+# enableDNT: "false"
+
+# Sitemap
+# sitemap: false
+
+# Language
+# lang: "en"
+
+# Translate options
+# translate_langs:
+#   - lang: en
+#     img: ...
+#     text: English
+
+# Theme color
+# theme_color: snowwhite
+
+# Brand colors
 orangered: #ff5100
 greatgold: #f2cb05
 greenblue: #389092
-ankkitblue: #348feb
+sriniblue: #348feb
 
-brand_color: ankkitblue
+brand_color: sriniblue
 
-# Header Configuration
+# Selection style
+# selection:
+#   color: "#ff00ff"
+#   background_color: "yellow"
+
+# Dark mode
+# night_mode: "auto"
+
+# Code badge
+# code_badge:
+#   enabled: "true"
+
+# Header pages
 header_pages:
   - index.html
   - about.html
+  - gallery.md
   - portfolio.md
+  - miscellaneous.md
   - contact.md
 
-# Page default value
+# Default page values
 defaults:
   home:
-    heading: "Welcome to My Site"
-    subheading: "~ Ankit"
-    banner: "assets/images/banners/banner_1.jpg"
+    heading: "My Homepage"
+    subheading: "~ Ankit Kumar"
+    banner: "https://github.com/CaptChup/CaptChup.github.io/blob/main/assets/images/banners/banner_1.jpg"
+
+# Banner settings
+# banner:
+#   image: null
+
+# Excerpt
+# excerpt:
+#   default_image: /assets/images/default-image.jpeg
+
+# Pagination
+# paginate: 5
+
+# Photo previewer
+# photo_previewer:
+#  gallery: "section.main"
+
+# Click to top
+# click_to_top:
+#   light:
+#     background_color: "white"
+
+# Disqus
+# disqus:
+#   shortname: ""
+
+# Gitment
+# gitment:
+#   username: ""
+
+# Utterances
+# utterances:
+#   repo: ""
 
 # Build settings
 markdown: kramdown
 kramdown:
   input: GFM
-  
+
 remote_theme: "jeffreytse/jekyll-theme-yat"
-theme: jekyll-theme-yat
 
 plugins:
   - jekyll-remote-theme
@@ -56,3 +153,5 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-spaceship
+```
+
