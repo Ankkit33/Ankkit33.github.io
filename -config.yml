@@ -1,36 +1,57 @@
-title: Ankit
-email: your@email.com
-description: Personal website of Ankit
-baseurl: ""
-url: "https://ankkit33.github.io"
+# Welcome to Jekyll!
+# Site settings
+title: Ankit's Homepage
+email: ankitkumarpadhan333@gmail.com
+author: Ankkit33
 
-theme: jekyll-theme-yat
+# Copyright setting
+copyright: "Copyright (c) 2024-{currentYear} <a href='https://github.com/Ankkit33'>{author}</a>"
 
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+description: >-
+  Ankit's personal homepage and portfolio.
 
-# Navbar
+baseurl: "" 
+url: "https://Ankkit33.github.io"
+favicon: "assets/images/favicons/favicon.ico"
+
+# Yat date format
+yat:
+  date_format: "%b %d, %Y"
+
+# Theme Branding
+# Default brand colors
+orangered: #ff5100
+greatgold: #f2cb05
+greenblue: #389092
+ankkitblue: #348feb
+
+brand_color: ankkitblue
+
+# Header Configuration
 header_pages:
-  - about.md
+  - index.html
+  - about.html
   - portfolio.md
   - contact.md
 
-# Author info
-author:
-  name: Ankit
-  avatar: /assets/images/profile.jpg
-  bio: Web Developer | Learner 🚀
+# Page default value
+defaults:
+  home:
+    heading: "Welcome to My Site"
+    subheading: "~ Ankit"
+    banner: "assets/images/banners/banner_1.jpg"
 
-# Social links
-social_links:
-  github: Ankkit33
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  
+remote_theme: "jeffreytse/jekyll-theme-yat"
 
-# Homepage settings
-home:
-  heading: "Hi, I'm Ankit 👋"
-  subheading: "Welcome to my portfolio website"
-  banner: ""
-
-# Pagination (like blog style)
-paginate: 5
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-spaceship
